@@ -1,0 +1,294 @@
+2021-03-24 13:43:34 [-][-][-][error][yii\console\UnknownCommandException] yii\base\InvalidRouteException: Unable to resolve the request "statisData/inspectIp". in /Users/lichen/Desktop/xingba/jdcha/vendor/yiisoft/yii2/base/Module.php:537
+Stack trace:
+#0 /Users/lichen/Desktop/xingba/jdcha/vendor/yiisoft/yii2/console/Application.php(180): yii\base\Module->runAction('statisData/insp...', Array)
+#1 /Users/lichen/Desktop/xingba/jdcha/vendor/yiisoft/yii2/console/Application.php(147): yii\console\Application->runAction('statisData/insp...', Array)
+#2 /Users/lichen/Desktop/xingba/jdcha/vendor/yiisoft/yii2/base/Application.php(386): yii\console\Application->handleRequest(Object(yii\console\Request))
+#3 /Users/lichen/Desktop/xingba/jdcha/yii(27): yii\base\Application->run()
+#4 {main}
+
+Next yii\console\UnknownCommandException: Unknown command "statisData/inspectIp". in /Users/lichen/Desktop/xingba/jdcha/vendor/yiisoft/yii2/console/Application.php:183
+Stack trace:
+#0 /Users/lichen/Desktop/xingba/jdcha/vendor/yiisoft/yii2/console/Application.php(147): yii\console\Application->runAction('statisData/insp...', Array)
+#1 /Users/lichen/Desktop/xingba/jdcha/vendor/yiisoft/yii2/base/Application.php(386): yii\console\Application->handleRequest(Object(yii\console\Request))
+#2 /Users/lichen/Desktop/xingba/jdcha/yii(27): yii\base\Application->run()
+#3 {main}
+2021-03-24 13:43:34 [-][-][-][info][application] $_SERVER = [
+    '__CFBundleIdentifier' => 'com.apple.Terminal'
+    'TMPDIR' => '/var/folders/lm/wnr32zc15cgb7y_j2v2n2x900000gn/T/'
+    'XPC_FLAGS' => '0x0'
+    'LaunchInstanceID' => '4D24D3EE-1DA2-497D-AA5D-0084CC9F856A'
+    'TERM' => 'xterm-256color'
+    'SSH_AUTH_SOCK' => '/private/tmp/com.apple.launchd.oJ1HHFNyly/Listeners'
+    'SECURITYSESSIONID' => '186b6'
+    'XPC_SERVICE_NAME' => '0'
+    'TERM_PROGRAM' => 'Apple_Terminal'
+    'TERM_PROGRAM_VERSION' => '440'
+    'TERM_SESSION_ID' => '0E47401A-3652-4279-838F-F14840CB93B5'
+    'SHELL' => '/bin/zsh'
+    'HOME' => '/Users/lichen'
+    'LOGNAME' => 'lichen'
+    'USER' => 'lichen'
+    'PATH' => '/opt/homebrew/bin:/opt/homebrew/sbin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin'
+    'SHLVL' => '1'
+    'PWD' => '/Users/lichen/Desktop/xingba/jdcha'
+    'OLDPWD' => '/Users/lichen'
+    'HOMEBREW_BOTTLE_DOMAIN' => 'https://mirrors.ustc.edu.cn/homebrew-bottles'
+    'HOMEBREW_PREFIX' => '/opt/homebrew'
+    'HOMEBREW_CELLAR' => '/opt/homebrew/Cellar'
+    'HOMEBREW_REPOSITORY' => '/opt/homebrew'
+    'MANPATH' => '/opt/homebrew/share/man::'
+    'INFOPATH' => '/opt/homebrew/share/info:'
+    'LANG' => 'zh_CN.UTF-8'
+    '_' => '/usr/bin/php'
+    '__CF_USER_TEXT_ENCODING' => '0x1F5:0x19:0x34'
+    'PHP_SELF' => 'yii'
+    'SCRIPT_NAME' => 'yii'
+    'SCRIPT_FILENAME' => 'yii'
+    'PATH_TRANSLATED' => 'yii'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1616564614.8906
+    'REQUEST_TIME' => 1616564614
+    'argv' => [
+        0 => 'yii'
+        1 => 'statisData/inspectIp'
+    ]
+    'argc' => 2
+]
+2021-05-17 11:18:54 [-][-][-][error][yii\console\UnknownCommandException] yii\base\InvalidRouteException: Unable to resolve the request: clock/get-standard-rankl in /Users/lichen/Documents/www/jdcha/vendor/yiisoft/yii2/base/Controller.php:128
+Stack trace:
+#0 /Users/lichen/Documents/www/jdcha/vendor/yiisoft/yii2/console/Controller.php(135): yii\base\Controller->runAction('get-standard-ra...', Array)
+#1 /Users/lichen/Documents/www/jdcha/vendor/yiisoft/yii2/base/Module.php(528): yii\console\Controller->runAction('get-standard-ra...', Array)
+#2 /Users/lichen/Documents/www/jdcha/vendor/yiisoft/yii2/console/Application.php(180): yii\base\Module->runAction('clock/get-stand...', Array)
+#3 /Users/lichen/Documents/www/jdcha/vendor/yiisoft/yii2/console/Application.php(147): yii\console\Application->runAction('clock/get-stand...', Array)
+#4 /Users/lichen/Documents/www/jdcha/vendor/yiisoft/yii2/base/Application.php(386): yii\console\Application->handleRequest(Object(yii\console\Request))
+#5 /Users/lichen/Documents/www/jdcha/yii(27): yii\base\Application->run()
+#6 {main}
+
+Next yii\console\UnknownCommandException: Unknown command "clock/get-standard-rankl". in /Users/lichen/Documents/www/jdcha/vendor/yiisoft/yii2/console/Application.php:183
+Stack trace:
+#0 /Users/lichen/Documents/www/jdcha/vendor/yiisoft/yii2/console/Application.php(147): yii\console\Application->runAction('clock/get-stand...', Array)
+#1 /Users/lichen/Documents/www/jdcha/vendor/yiisoft/yii2/base/Application.php(386): yii\console\Application->handleRequest(Object(yii\console\Request))
+#2 /Users/lichen/Documents/www/jdcha/yii(27): yii\base\Application->run()
+#3 {main}
+2021-05-17 11:18:54 [-][-][-][info][application] $_SERVER = [
+    'COMMAND_MODE' => 'unix2003'
+    'HOME' => '/Users/lichen'
+    'ZDOTDIR' => ''
+    '__CF_USER_TEXT_ENCODING' => '0x1F5:0x19:0x34'
+    'LOGIN_SHELL' => '1'
+    'PATH' => '/opt/homebrew/Cellar/php@7.4/7.4.16/sbin:/opt/homebrew/Cellar/php@7.4/7.4.16/bin:/opt/homebrew/bin:/opt/homebrew/sbin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin'
+    'USER' => 'lichen'
+    'SSH_AUTH_SOCK' => '/private/tmp/com.apple.launchd.nY66YrZhgF/Listeners'
+    '__INTELLIJ_COMMAND_HISTFILE__' => '/Users/lichen/Library/Application Support/JetBrains/PhpStorm2020.2/terminal/history/history-2'
+    'TMPDIR' => '/var/folders/lm/wnr32zc15cgb7y_j2v2n2x900000gn/T/'
+    'SHELL' => '/bin/zsh'
+    'LOGNAME' => 'lichen'
+    'XPC_SERVICE_NAME' => '0'
+    'LC_CTYPE' => 'zh_CN.UTF-8'
+    'XPC_FLAGS' => '0x0'
+    '__CFBundleIdentifier' => 'com.jetbrains.PhpStorm'
+    'TERM' => 'xterm-256color'
+    'TERMINAL_EMULATOR' => 'JetBrains-JediTerm'
+    'SHLVL' => '1'
+    'PWD' => '/Users/lichen/Documents/www/jdcha'
+    'OLDPWD' => '/Users/lichen/Documents/www/jdcha'
+    'HOMEBREW_BOTTLE_DOMAIN' => 'https://mirrors.ustc.edu.cn/homebrew-bottles'
+    'HOMEBREW_PREFIX' => '/opt/homebrew'
+    'HOMEBREW_CELLAR' => '/opt/homebrew/Cellar'
+    'HOMEBREW_REPOSITORY' => '/opt/homebrew'
+    'MANPATH' => '/opt/homebrew/share/man::'
+    'INFOPATH' => '/opt/homebrew/share/info:'
+    '_' => '/opt/homebrew/Cellar/php@7.4/7.4.16/bin/php'
+    'PHP_SELF' => './yii'
+    'SCRIPT_NAME' => './yii'
+    'SCRIPT_FILENAME' => './yii'
+    'PATH_TRANSLATED' => './yii'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1621221534.1008
+    'REQUEST_TIME' => 1621221534
+    'argv' => [
+        0 => './yii'
+        1 => 'clock/get-standard-rankl'
+    ]
+    'argc' => 2
+]
+2021-05-17 11:18:55 [-][-][-][error][yii\console\UnknownCommandException] yii\base\InvalidRouteException: Unable to resolve the request: clock/get-standard-rank in /Users/lichen/Documents/www/jdcha/vendor/yiisoft/yii2/base/Controller.php:128
+Stack trace:
+#0 /Users/lichen/Documents/www/jdcha/vendor/yiisoft/yii2/console/Controller.php(135): yii\base\Controller->runAction('get-standard-ra...', Array)
+#1 /Users/lichen/Documents/www/jdcha/vendor/yiisoft/yii2/base/Module.php(528): yii\console\Controller->runAction('get-standard-ra...', Array)
+#2 /Users/lichen/Documents/www/jdcha/vendor/yiisoft/yii2/console/Application.php(180): yii\base\Module->runAction('clock/get-stand...', Array)
+#3 /Users/lichen/Documents/www/jdcha/vendor/yiisoft/yii2/console/Application.php(147): yii\console\Application->runAction('clock/get-stand...', Array)
+#4 /Users/lichen/Documents/www/jdcha/vendor/yiisoft/yii2/base/Application.php(386): yii\console\Application->handleRequest(Object(yii\console\Request))
+#5 /Users/lichen/Documents/www/jdcha/yii(27): yii\base\Application->run()
+#6 {main}
+
+Next yii\console\UnknownCommandException: Unknown command "clock/get-standard-rank". in /Users/lichen/Documents/www/jdcha/vendor/yiisoft/yii2/console/Application.php:183
+Stack trace:
+#0 /Users/lichen/Documents/www/jdcha/vendor/yiisoft/yii2/console/Application.php(147): yii\console\Application->runAction('clock/get-stand...', Array)
+#1 /Users/lichen/Documents/www/jdcha/vendor/yiisoft/yii2/base/Application.php(386): yii\console\Application->handleRequest(Object(yii\console\Request))
+#2 /Users/lichen/Documents/www/jdcha/yii(27): yii\base\Application->run()
+#3 {main}
+2021-05-17 11:18:55 [-][-][-][info][application] $_SERVER = [
+    'COMMAND_MODE' => 'unix2003'
+    'HOME' => '/Users/lichen'
+    'ZDOTDIR' => ''
+    '__CF_USER_TEXT_ENCODING' => '0x1F5:0x19:0x34'
+    'LOGIN_SHELL' => '1'
+    'PATH' => '/opt/homebrew/Cellar/php@7.4/7.4.16/sbin:/opt/homebrew/Cellar/php@7.4/7.4.16/bin:/opt/homebrew/bin:/opt/homebrew/sbin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin'
+    'USER' => 'lichen'
+    'SSH_AUTH_SOCK' => '/private/tmp/com.apple.launchd.nY66YrZhgF/Listeners'
+    '__INTELLIJ_COMMAND_HISTFILE__' => '/Users/lichen/Library/Application Support/JetBrains/PhpStorm2020.2/terminal/history/history-2'
+    'TMPDIR' => '/var/folders/lm/wnr32zc15cgb7y_j2v2n2x900000gn/T/'
+    'SHELL' => '/bin/zsh'
+    'LOGNAME' => 'lichen'
+    'XPC_SERVICE_NAME' => '0'
+    'LC_CTYPE' => 'zh_CN.UTF-8'
+    'XPC_FLAGS' => '0x0'
+    '__CFBundleIdentifier' => 'com.jetbrains.PhpStorm'
+    'TERM' => 'xterm-256color'
+    'TERMINAL_EMULATOR' => 'JetBrains-JediTerm'
+    'SHLVL' => '1'
+    'PWD' => '/Users/lichen/Documents/www/jdcha'
+    'OLDPWD' => '/Users/lichen/Documents/www/jdcha'
+    'HOMEBREW_BOTTLE_DOMAIN' => 'https://mirrors.ustc.edu.cn/homebrew-bottles'
+    'HOMEBREW_PREFIX' => '/opt/homebrew'
+    'HOMEBREW_CELLAR' => '/opt/homebrew/Cellar'
+    'HOMEBREW_REPOSITORY' => '/opt/homebrew'
+    'MANPATH' => '/opt/homebrew/share/man::'
+    'INFOPATH' => '/opt/homebrew/share/info:'
+    '_' => '/opt/homebrew/Cellar/php@7.4/7.4.16/bin/php'
+    'PHP_SELF' => './yii'
+    'SCRIPT_NAME' => './yii'
+    'SCRIPT_FILENAME' => './yii'
+    'PATH_TRANSLATED' => './yii'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1621221535.5162
+    'REQUEST_TIME' => 1621221535
+    'argv' => [
+        0 => './yii'
+        1 => 'clock/get-standard-rank'
+    ]
+    'argc' => 2
+]
+2021-05-17 11:19:11 [-][-][-][error][yii\db\Exception] yii\db\Exception: Redis error: ERR AUTH <password> called without any password configured for the default user. Are you sure your configuration is correct?
+Redis command was: AUTH W8FXG3zTn74EEhQA in /Users/lichen/Documents/www/jdcha/vendor/yiisoft/yii2-redis/Connection.php:675
+Stack trace:
+#0 /Users/lichen/Documents/www/jdcha/vendor/yiisoft/yii2-redis/Connection.php(652): yii\redis\Connection->parseResponse('AUTH W8FXG3zTn7...')
+#1 /Users/lichen/Documents/www/jdcha/vendor/yiisoft/yii2-redis/Connection.php(536): yii\redis\Connection->executeCommand('AUTH', Array)
+#2 /Users/lichen/Documents/www/jdcha/vendor/yiisoft/yii2-redis/Connection.php(641): yii\redis\Connection->open()
+#3 /Users/lichen/Documents/www/jdcha/vendor/yiisoft/yii2-redis/Connection.php(606): yii\redis\Connection->executeCommand('GET', Array)
+#4 /Users/lichen/Documents/www/jdcha/console/controllers/ClockController.php(229): yii\redis\Connection->__call('get', Array)
+#5 [internal function]: console\controllers\ClockController->actionUuidCheck()
+#6 /Users/lichen/Documents/www/jdcha/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array(Array, Array)
+#7 /Users/lichen/Documents/www/jdcha/vendor/yiisoft/yii2/base/Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#8 /Users/lichen/Documents/www/jdcha/vendor/yiisoft/yii2/console/Controller.php(135): yii\base\Controller->runAction('uuid-check', Array)
+#9 /Users/lichen/Documents/www/jdcha/vendor/yiisoft/yii2/base/Module.php(528): yii\console\Controller->runAction('uuid-check', Array)
+#10 /Users/lichen/Documents/www/jdcha/vendor/yiisoft/yii2/console/Application.php(180): yii\base\Module->runAction('clock/uuid-chec...', Array)
+#11 /Users/lichen/Documents/www/jdcha/vendor/yiisoft/yii2/console/Application.php(147): yii\console\Application->runAction('clock/uuid-chec...', Array)
+#12 /Users/lichen/Documents/www/jdcha/vendor/yiisoft/yii2/base/Application.php(386): yii\console\Application->handleRequest(Object(yii\console\Request))
+#13 /Users/lichen/Documents/www/jdcha/yii(27): yii\base\Application->run()
+#14 {main}
+Additional Information:
+Array
+(
+)
+
+2021-05-17 11:19:11 [-][-][-][info][application] $_SERVER = [
+    'COMMAND_MODE' => 'unix2003'
+    'HOME' => '/Users/lichen'
+    'ZDOTDIR' => ''
+    '__CF_USER_TEXT_ENCODING' => '0x1F5:0x19:0x34'
+    'LOGIN_SHELL' => '1'
+    'PATH' => '/opt/homebrew/Cellar/php@7.4/7.4.16/sbin:/opt/homebrew/Cellar/php@7.4/7.4.16/bin:/opt/homebrew/bin:/opt/homebrew/sbin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin'
+    'USER' => 'lichen'
+    'SSH_AUTH_SOCK' => '/private/tmp/com.apple.launchd.nY66YrZhgF/Listeners'
+    '__INTELLIJ_COMMAND_HISTFILE__' => '/Users/lichen/Library/Application Support/JetBrains/PhpStorm2020.2/terminal/history/history-2'
+    'TMPDIR' => '/var/folders/lm/wnr32zc15cgb7y_j2v2n2x900000gn/T/'
+    'SHELL' => '/bin/zsh'
+    'LOGNAME' => 'lichen'
+    'XPC_SERVICE_NAME' => '0'
+    'LC_CTYPE' => 'zh_CN.UTF-8'
+    'XPC_FLAGS' => '0x0'
+    '__CFBundleIdentifier' => 'com.jetbrains.PhpStorm'
+    'TERM' => 'xterm-256color'
+    'TERMINAL_EMULATOR' => 'JetBrains-JediTerm'
+    'SHLVL' => '1'
+    'PWD' => '/Users/lichen/Documents/www/jdcha'
+    'OLDPWD' => '/Users/lichen/Documents/www/jdcha'
+    'HOMEBREW_BOTTLE_DOMAIN' => 'https://mirrors.ustc.edu.cn/homebrew-bottles'
+    'HOMEBREW_PREFIX' => '/opt/homebrew'
+    'HOMEBREW_CELLAR' => '/opt/homebrew/Cellar'
+    'HOMEBREW_REPOSITORY' => '/opt/homebrew'
+    'MANPATH' => '/opt/homebrew/share/man::'
+    'INFOPATH' => '/opt/homebrew/share/info:'
+    '_' => '/opt/homebrew/Cellar/php@7.4/7.4.16/bin/php'
+    'PHP_SELF' => './yii'
+    'SCRIPT_NAME' => './yii'
+    'SCRIPT_FILENAME' => './yii'
+    'PATH_TRANSLATED' => './yii'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1621221551.0553
+    'REQUEST_TIME' => 1621221551
+    'argv' => [
+        0 => './yii'
+        1 => 'clock/uuid-check'
+    ]
+    'argc' => 2
+]
+2021-09-24 11:51:12 [-][-][-][error][yii\console\UnknownCommandException] yii\base\InvalidRouteException: Unable to resolve the request "init". in /Users/lichen/Documents/www/jdcha/vendor/yiisoft/yii2/base/Module.php:537
+Stack trace:
+#0 /Users/lichen/Documents/www/jdcha/vendor/yiisoft/yii2/console/Application.php(180): yii\base\Module->runAction('init', Array)
+#1 /Users/lichen/Documents/www/jdcha/vendor/yiisoft/yii2/console/Application.php(147): yii\console\Application->runAction('init', Array)
+#2 /Users/lichen/Documents/www/jdcha/vendor/yiisoft/yii2/base/Application.php(386): yii\console\Application->handleRequest(Object(yii\console\Request))
+#3 /Users/lichen/Documents/www/jdcha/yii(27): yii\base\Application->run()
+#4 {main}
+
+Next yii\console\UnknownCommandException: Unknown command "init". in /Users/lichen/Documents/www/jdcha/vendor/yiisoft/yii2/console/Application.php:183
+Stack trace:
+#0 /Users/lichen/Documents/www/jdcha/vendor/yiisoft/yii2/console/Application.php(147): yii\console\Application->runAction('init', Array)
+#1 /Users/lichen/Documents/www/jdcha/vendor/yiisoft/yii2/base/Application.php(386): yii\console\Application->handleRequest(Object(yii\console\Request))
+#2 /Users/lichen/Documents/www/jdcha/yii(27): yii\base\Application->run()
+#3 {main}
+2021-09-24 11:51:12 [-][-][-][info][application] $_SERVER = [
+    'COMMAND_MODE' => 'unix2003'
+    'HOME' => '/Users/lichen'
+    '__CF_USER_TEXT_ENCODING' => '0x1F5:0x19:0x34'
+    'LOGIN_SHELL' => '1'
+    'PATH' => '/opt/homebrew/Cellar/php@7.4/7.4.16/sbin:/opt/homebrew/Cellar/php@7.4/7.4.16/bin:/opt/homebrew/bin:/opt/homebrew/sbin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/go/bin:/Users/lichen/go/bin'
+    'USER' => 'lichen'
+    'SSH_AUTH_SOCK' => '/private/tmp/com.apple.launchd.np5RDiDf7Z/Listeners'
+    '__INTELLIJ_COMMAND_HISTFILE__' => '/Users/lichen/Library/Application Support/JetBrains/PhpStorm2020.3/terminal/history/history-11'
+    'TMPDIR' => '/var/folders/lm/wnr32zc15cgb7y_j2v2n2x900000gn/T/'
+    'SHELL' => '/bin/zsh'
+    'LOGNAME' => 'lichen'
+    'XPC_SERVICE_NAME' => '0'
+    'LC_CTYPE' => 'zh_CN.UTF-8'
+    'XPC_FLAGS' => '0x0'
+    '__CFBundleIdentifier' => 'com.jetbrains.PhpStorm'
+    'TERM' => 'xterm-256color'
+    'TERMINAL_EMULATOR' => 'JetBrains-JediTerm'
+    'SHLVL' => '1'
+    'PWD' => '/Users/lichen/Documents/www/jdcha'
+    'OLDPWD' => '/Users/lichen/Documents/www/jdcha'
+    'HOMEBREW_BOTTLE_DOMAIN' => 'https://mirrors.ustc.edu.cn/homebrew-bottles'
+    'HOMEBREW_PREFIX' => '/opt/homebrew'
+    'HOMEBREW_CELLAR' => '/opt/homebrew/Cellar'
+    'HOMEBREW_REPOSITORY' => '/opt/homebrew'
+    'MANPATH' => '/opt/homebrew/share/man::'
+    'INFOPATH' => '/opt/homebrew/share/info:'
+    'GOPATH' => '/Users/lichen/go'
+    'GOBIN' => '/Users/lichen/go/bin'
+    '_' => '/opt/homebrew/Cellar/php@7.4/7.4.16/bin/php'
+    'PHP_SELF' => './yii'
+    'SCRIPT_NAME' => './yii'
+    'SCRIPT_FILENAME' => './yii'
+    'PATH_TRANSLATED' => './yii'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1632455472.5944
+    'REQUEST_TIME' => 1632455472
+    'argv' => [
+        0 => './yii'
+        1 => 'init'
+    ]
+    'argc' => 2
+]
