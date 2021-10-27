@@ -47,7 +47,6 @@ class InvestigationController extends Controller{
 
     public function actionAdd()
     {
-        \Yii::$app->response->format = Response::FORMAT_JSON;
         $param = \Yii::$app->request->post();
         $investigationObj = new Investigation();
         $investigationObj->setAttributes($param, false);
