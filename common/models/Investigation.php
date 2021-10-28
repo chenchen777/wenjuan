@@ -42,7 +42,7 @@ class Investigation extends \yii\db\ActiveRecord
     public function rules()
     {
         return [
-            [['is_use', 'order_frequency', 'purchase_order_num', 'artificial_num', 'is_auto_pay', 'is_goods_config', 'error', 'is_continue', 'platform', 'support', 'personal_info'], 'required'],
+            [['is_use', 'order_frequency', 'purchase_order_num', 'is_goods_config', 'error', 'platform', 'support', 'personal_info'], 'required'],
             [['is_use', 'order_frequency', 'purchase_order_num', 'artificial_num', 'is_auto_pay', 'is_goods_config'], 'integer'],
             [['solve_problem', 'other_problem', 'error', 'is_continue', 'platform', 'support', 'personal_info'], 'string', 'max' => 255],
         ];
