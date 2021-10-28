@@ -51,15 +51,15 @@ class InvestigationController extends Controller{
 //        return ['result' => 1, 'msg' => '提交成功'];
         try {
             $param = \Yii::$app->request->post();
-//        if (is_array($param['solve_problem'])){
-//            $param['solve_problem'] = implode(',', $param['solve_problem']);
-//        }
-//        if (is_array($param['platform'])){
-//            $param['platform'] = implode(',', $param['platform']);
-//        }
-//        if (is_array($param['error'])){
-//            $param['error'] = implode(',', $param['error']);
-//        }
+        if (is_array($param['solve_problem'])){
+            $param['solve_problem'] = implode(',', $param['solve_problem']);
+        }
+        if (is_array($param['platform'])){
+            $param['platform'] = implode(',', $param['platform']);
+        }
+        if (is_array($param['error'])){
+            $param['error'] = implode(',', $param['error']);
+        }
             $investigationObj = new Investigation();
             $investigationObj->setAttributes($param, false);
             if($investigationObj->save($param)){
