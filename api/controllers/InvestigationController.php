@@ -16,7 +16,7 @@ use yii\filters\ContentNegotiator;
  * Class RankingController
  * @package api\controllers
  */
-header("Access-Control-Allow-Origin: *");
+
 class InvestigationController extends Controller{
 
     public $enableCsrfValidation =false;
