@@ -65,7 +65,7 @@ class InvestigationController extends Controller{
             if($investigationObj->save($param)){
                 return ['result' => 1, 'msg' => '提交成功'];
             }else{
-                return ['result' => 0, 'msg' => '提交失败'];
+                return ['result' => 0, 'msg' => $investigationObj->errors];
             }
         }catch (\Exception $exception){
             return ['result' => 0, 'msg' => $exception->getMessage()];
