@@ -47,7 +47,7 @@ class InvestigationController extends Controller{
 
     public function actionAdd()
     {
-        header("Access-Control-Allow-Origin: http://que.kuaizhongcao.com");
+        header("Access-Control-Allow-Origin: *");
         $param = \Yii::$app->request->post();
         if (is_array($param['solve_problem'])){
             $param['solve_problem'] = implode(',', $param['solve_problem']);
