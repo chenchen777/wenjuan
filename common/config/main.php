@@ -26,21 +26,21 @@ return [
             'decimalSeparator' => ',',
             'thousandSeparator' => ' ',
         ],
-        'cache' => [
-            'class' => 'yii\redis\Cache',
-            'redis' => [
-                'hostname' => '127.0.0.1',
-                'port' => 6379,
-                'database' => 0,
-                        //'password' => 'W8FXG3zTn74EEhQA',
-            ],
-        ],
-        'redis' => [
-            'class' => 'yii\redis\Connection',
-            'hostname' => '127.0.0.1', //localhost
-            'port' => 6379,
-            'database' => 0,
-            //'password' => 'W8FXG3zTn74EEhQA'
-        ],
+//        'cache' => [
+//            'class' => 'yii\redis\Cache',
+//            'redis' => [
+//                'hostname' => '127.0.0.1',
+//                'port' => 6379,
+//                'database' => 0,
+//                        //'password' => 'W8FXG3zTn74EEhQA',
+//            ],
+//        ],
+//        'redis' => [
+//            'class' => 'yii\redis\Connection',
+//            'hostname' => '127.0.0.1', //localhost
+//            'port' => 6379,
+//            'database' => 0,
+//            //'password' => 'W8FXG3zTn74EEhQA'
+//        ],
     ],
 ];
