@@ -8,19 +8,6 @@
 namespace api\controllers;
 
 use common\models\Investigation;
-use common\models\ApiCityList;
-use common\models\ApiCityLists;
-use common\models\BaseGoods;
-use common\models\IpLog;
-use common\models\MonitorGoods;
-use common\models\RandomList;
-use common\models\ServiceKeywordSearch;
-use common\models\ServiceKeywordSearchResult;
-use common\models\TimeList;
-use common\models\User;
-use phpDocumentor\Reflection\DocBlock\Tags\Var_;
-use Yii;
-use yii\helpers\Json;
 use yii\web\Response;
 use yii\base\Controller;
 use yii\filters\ContentNegotiator;
@@ -29,6 +16,7 @@ use yii\filters\ContentNegotiator;
  * Class RankingController
  * @package api\controllers
  */
+header("Access-Control-Allow-Origin: *");
 class InvestigationController extends Controller{
 
     public $enableCsrfValidation =false;
@@ -47,7 +35,6 @@ class InvestigationController extends Controller{
 
     public function actionAdd()
     {
-        header("Access-Control-Allow-Origin: *");
         $param = \Yii::$app->request->post();
         if (is_array($param['solve_problem'])){
             $param['solve_problem'] = implode(',', $param['solve_problem']);
