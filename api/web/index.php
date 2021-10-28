@@ -1,4 +1,5 @@
 <?php
+header("Access-Control-Allow-Origin: *");
 defined('YII_DEBUG') or define('YII_DEBUG', true);
 defined('YII_ENV') or define('YII_ENV', 'dev');
 
@@ -13,5 +14,4 @@ $config = yii\helpers\ArrayHelper::merge(
     require(__DIR__ . '/../config/main.php'),
     require(__DIR__ . '/../config/main-local.php')
 );
-header("Access-Control-Allow-Origin: *");
 (new yii\web\Application($config))->run();
