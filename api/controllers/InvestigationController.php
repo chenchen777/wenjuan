@@ -8,6 +8,7 @@
 namespace api\controllers;
 
 use common\models\Investigation;
+use mysql_xdevapi\Exception;
 use yii\filters\auth\HttpBearerAuth;
 use yii\filters\Cors;
 use yii\filters\VerbFilter;
@@ -48,7 +49,8 @@ class InvestigationController extends Controller{
     public function actionAdd()
     {
 //        return ['result' => 1, 'msg' => '提交成功'];
-        $param = \Yii::$app->request->post();
+        try {
+            $param = \Yii::$app->request->post();
 //        if (is_array($param['solve_problem'])){
 //            $param['solve_problem'] = implode(',', $param['solve_problem']);
 //        }
@@ -58,12 +60,16 @@ class InvestigationController extends Controller{
 //        if (is_array($param['error'])){
 //            $param['error'] = implode(',', $param['error']);
 //        }
-        $investigationObj = new Investigation();
-        $investigationObj->setAttributes($param, false);
-        if($investigationObj->save($param)){
-            return ['result' => 1, 'msg' => '提交成功'];
-        }else{
-            return ['result' => 0, 'msg' => '提交失败'];
+            $investigationObj = new Investigation();
+            $investigationObj->setAttributes($param, false);
+            if($investigationObj->save($param)){
+                return ['result' => 1, 'msg' => '提交成功'];
+            }else{
+                return ['result' => 0, 'msg' => '提交失败'];
+            }
+        }catch (\Exception $exception){
+            return ['result' => 0, 'msg' => $exception->getMessage()];
         }
+
     }
 }
