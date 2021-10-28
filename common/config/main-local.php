@@ -10,9 +10,9 @@ return [
 //        ],
         'db' => [
             'class' => 'yii\db\Connection',
-            'dsn' => 'mysql:host=106.75.218.64;dbname=wenjuan',
+            'dsn' => 'mysql:host=10.23.199.166;dbname=wenjuan',
             'username' => 'root',
-            'password' => 'W8FXG3zTn74EEhQA',
+            'password' => 'EolVN7U@CrAm',
             'charset' => 'utf8',
         ],
         'jdrqds' => [
