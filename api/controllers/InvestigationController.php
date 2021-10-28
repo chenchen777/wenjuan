@@ -48,9 +48,15 @@ class InvestigationController extends Controller{
 
     public function actionAdd()
     {
-//        return ['result' => 1, 'msg' => '提交成功'];
         try {
             $param = \Yii::$app->request->post();
+            $arr = ['is_use', 'order_frequency', 'purchase_order_num', 'is_goods_config', 'platform', 'error', 'support', 'personal_info'];
+            foreach ($arr as $_field)
+            {
+                if(empty($param[$_field])){
+                    return ['result' => 1, 'msg' => '请您填写完整再提交～'];
+                }
+            }
         if (is_array($param['solve_problem'])){
             $param['solve_problem'] = implode(',', $param['solve_problem']);
         }
@@ -65,7 +71,7 @@ class InvestigationController extends Controller{
             if($investigationObj->save($param)){
                 return ['result' => 1, 'msg' => '提交成功'];
             }else{
-                return ['result' => 0, 'msg' => $investigationObj->errors];
+                return ['result' => 0, 'msg' => '提交失败'];
             }
         }catch (\Exception $exception){
             return ['result' => 0, 'msg' => $exception->getMessage()];
