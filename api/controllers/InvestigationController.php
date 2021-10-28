@@ -47,7 +47,19 @@ class InvestigationController extends Controller{
 
     public function actionAdd()
     {
+        header("Access-Control-Allow-Origin: *");
+        header('Access-Control-Allow-Methods:* ');
+        header('Access-Control-Allow-Headers:x-requested-with,content-type');
         $param = \Yii::$app->request->post();
+        if (is_array($param['solve_problem'])){
+            $param['solve_problem'] = implode(',', $param['solve_problem']);
+        }
+        if (is_array($param['platform'])){
+            $param['platform'] = implode(',', $param['platform']);
+        }
+        if (is_array($param['error'])){
+            $param['error'] = implode(',', $param['error']);
+        }
         $investigationObj = new Investigation();
         $investigationObj->setAttributes($param, false);
         if($investigationObj->save($param)){
