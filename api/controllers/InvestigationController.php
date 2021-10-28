@@ -43,7 +43,7 @@ class InvestigationController extends Controller{
 
     public function actionAdd()
     {
-        $param = \Yii::$app->request->getParams();
+        $param = \Yii::$app->request->get();
 //        if (is_array($param['solve_problem'])){
 //            $param['solve_problem'] = implode(',', $param['solve_problem']);
 //        }
