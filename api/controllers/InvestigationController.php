@@ -54,7 +54,7 @@ class InvestigationController extends Controller{
             foreach ($arr as $_field)
             {
                 if(empty($param[$_field])){
-                    return ['result' => 1, 'msg' => '请您填写完整再提交～'];
+                    return ['result' => 1, 'msg' => '请输入您的答案!'];
                 }
             }
         if (is_array($param['solve_problem'])){
