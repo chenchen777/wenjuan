@@ -66,7 +66,7 @@ class InvestigationController extends Controller{
                 ],
             ]
         ];
-        if (Yii::$app->getRequest()->getMethod() !== 'OPTIONS') {
+        if (\Yii::$app->getRequest()->getMethod() !== 'OPTIONS') {
             $behaviors['authenticator'] = [
                 'class' => HttpBearerAuth::className(),
                 'optional' => [
