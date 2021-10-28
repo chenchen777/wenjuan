@@ -11,10 +11,10 @@ use common\models\Investigation;
 use yii\web\Response;
 use yii\base\Controller;
 use yii\filters\ContentNegotiator;
-header("Access-Control-Allow-Origin: *");
-header("Access-Control-Allow-Methods: GET, POST, OPTIONS");
-header('Access-Control-Allow-Credentials: true');
-header("Access-Control-Allow-Headers: Authorization,Content-Type,Accept,Origin,User-Agent,DNT,Cache-Control,X-Mx-ReqToken,Keep-Alive,X-Requested-With,If-Modified-Since");
+//header("Access-Control-Allow-Origin: *");
+//header("Access-Control-Allow-Methods: GET, POST, OPTIONS");
+//header('Access-Control-Allow-Credentials: true');
+//header("Access-Control-Allow-Headers: Authorization,Content-Type,Accept,Origin,User-Agent,DNT,Cache-Control,X-Mx-ReqToken,Keep-Alive,X-Requested-With,If-Modified-Since");
 /**
  * Class RankingController
  * @package api\controllers
@@ -32,7 +32,12 @@ class InvestigationController extends Controller{
                 'formats' => [
                     'application/json' => Response::FORMAT_JSON,
                 ],
-            ]
+            ],
+            'cors' => [
+                'Origin' => ['*'],
+                'Access-Control-Request-Method' => ['GET', 'POST'],
+                'Access-Control-Request-Headers'=>['*']
+            ],
         ];
     }
 
