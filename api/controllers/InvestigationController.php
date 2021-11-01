@@ -50,7 +50,7 @@ class InvestigationController extends Controller{
     {
         try {
             $param = \Yii::$app->request->post();
-            $arr = ['is_use', 'order_frequency', 'purchase_order_num', 'is_goods_config', 'platform', 'error', 'support', 'personal_info'];
+            $arr = ['is_use', 'order_frequency', 'purchase_order_num', 'is_goods_config', 'platform', 'error', 'support'];
             foreach ($arr as $_field)
             {
                 if(empty($param[$_field])){
