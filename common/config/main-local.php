@@ -8,13 +8,13 @@ return [
 //            'password' => 'W8FXG3zTn74EEhQA',
 //            'charset' => 'utf8',
 //        ],
-//        'db' => [
-//            'class' => 'yii\db\Connection',
-//            'dsn' => 'mysql:host=10.23.199.166;dbname=wenjuan',
-//            'username' => 'root',
-//            'password' => 'EolVN7U@CrAm',
-//            'charset' => 'utf8',
-//        ],
+        'db' => [
+            'class' => 'yii\db\Connection',
+            'dsn' => 'mysql:host=10.23.199.166;dbname=wenjuan',
+            'username' => 'root',
+            'password' => 'EolVN7U@CrAm',
+            'charset' => 'utf8',
+        ],
 //        'jdrqds' => [
 //            'class' => 'yii\db\Connection',
 //            'dsn' => 'mysql:host=10.23.103.61;dbname=jdrqds',
