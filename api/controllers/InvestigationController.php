@@ -8,10 +8,6 @@
 namespace api\controllers;
 
 use common\models\Investigation;
-use mysql_xdevapi\Exception;
-use yii\filters\auth\HttpBearerAuth;
-use yii\filters\Cors;
-use yii\filters\VerbFilter;
 use yii\web\Response;
 use yii\base\Controller;
 use yii\filters\ContentNegotiator;

@@ -43,8 +43,8 @@ class Investigation extends \yii\db\ActiveRecord
     {
         return [
             [['is_use', 'order_frequency', 'purchase_order_num', 'is_goods_config', 'error', 'platform', 'support'], 'required'],
-            [['is_use', 'order_frequency', 'purchase_order_num', 'artificial_num', 'is_auto_pay', 'is_goods_config'], 'integer'],
-            [['solve_problem', 'other_problem', 'error', 'is_continue', 'platform', 'support', 'personal_info'], 'string', 'max' => 255],
+            [['is_use', 'order_frequency', 'purchase_order_num', 'is_goods_config'], 'integer'],
+            [['solve_problem', 'other_problem', 'error', 'platform', 'support', 'personal_info'], 'string', 'max' => 255],
         ];
     }
 
